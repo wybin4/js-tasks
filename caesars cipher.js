@@ -10,5 +10,4 @@ function rot13(str) {
   codes = codes.map(val => String.fromCharCode(val));
   return codes.join('');
 }
-
 console.log(rot13("SERR CVMMN!"));
